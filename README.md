@@ -39,7 +39,7 @@ Each prompt was run **15 independent times** under a sterile session protocol:
 - GPU cache is explicitly cleared between runs via `torch.cuda.empty_cache()`
  
 ### Output Format
-Results are stored as `.jsonl` files, one line per `(prompt, run)` pair, following the schema:
+Results are stored as `.jsonl` files, one line per `(prompt, run)` pair, following the schema;
 ```json
 {"id": "1-1", "run": 3, "prompt": "...", "answer": "..."}
 ```
